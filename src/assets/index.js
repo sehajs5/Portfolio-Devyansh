@@ -13,7 +13,7 @@ import utensils from "../assets/Patents/utensils.png"
 import auto from "../assets/Patents/auto.png"
 import cropsLong from "../assets/Patents/cropsLong.png"
 import shoe from "../assets/Patents/shoe.png"
-import { compose } from "redux"
+import pole from "../assets/Patents/pole.jpeg"
 export const PAPERS = [
   {
     year: "2024 IEEE 9th International Conference for Convergence in Technology (I2CT)",
@@ -159,8 +159,8 @@ export const PATENTS = [
     id: 14,
     title: "Electric Pole System",
     number: "IN 202411064848", 
-    description: "",
-    imageDes: {},
+    description: "This innovative concept introduces smart electric poles that integrate IoT and learning algorithms to enhance power transmission efficiency and safety. Equipped with Raspberry Pi B4 modules, these poles monitor and control voltage, frequency, and other parameters while employing prediction models to detect faults in the power supply. Specially designed polycarbonate plastic chambers shield wires from environmental elements like sunlight, lightning, and strong winds, ensuring stability and preventing damage. A cooling mechanism regulates temperature, while magnetic bars counteract wire movements caused by wind. The poles feature a hydraulic system for height adjustment, addressing challenges in crowded urban areas. Smart RFID systems facilitate fault detection and localization, improving maintenance efficiency. Advanced insulators respond to voltage surges, mitigating the risk of fires and current leakage. By combining smart insulation, predictive monitoring, and mechanical adaptability, these electric poles aim to revolutionize power transmission with improved safety, reliability, and resilience against environmental and mechanical stresses.",
+    imageDes: pole,
   },
   {
     id: 15, 
@@ -182,10 +182,40 @@ export const PATENTS = [
     number: "IN",
     description: "The present invention pertains to a smart footwear management system, and more specifically to an autonomous footwear storage, cleaning, maintenance, and health monitoring system incorporating advanced sensor technology, machine learning, robotic mechanisms, and foot health analysis. The invention encompasses a smart storage unit that automatically stores, cleans, dries, and categorizes shoes, along with more added features of lacing, health monitoring of the foot, and predictive selection based on environmental conditions of the shoe.",
     imageDes: shoe,
-  }
+  },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Earthquake Protection System",
+    url: "https://github.com/devyanshbatra/Earthquake_Protection_System",
+    description: "Earthquakes pose significant risks to human life and infrastructure. During seismic events, individuals may become trapped in enclosed spaces, facing imminent danger from collapsing structures",
+  },
+  {
+    title: "Lunar Lander",
+    description: "This code implements a Deep Q-Network (DQN) to train an agent to solve the LunarLander-v2 environment. The agent learns to safely land a lunar module by maximizing rewards using a neural network, experience replay, and target networks. The environment provides a continuous state space and a discrete action space with four thrust commands.",
+    url:"https://github.com/devyanshbatra/Lunar_Lander",
+  },
+  {
+    title: "Pac Man Agent",
+    description: "This code implements a Deep Q-Learning agent to solve a maze environment. It uses PyTorch to create a convolutional neural network for Q-value estimation. The agent learns to navigate from start to goal using epsilon-greedy exploration and experience replay. The training progress is visualized, and a custom function demonstrates the trained agent's performance in the maze.",
+    url: "https://github.com/devyanshbatra/PAC_MAN_AGENT",
+  },
+  {
+    title: "Heart_Disease_Classification",
+    description: "Machine learning models significantly enhance heart disease diagnosis by analyzing complex medical data, including patient demographics, symptoms, lifestyle factors, and diagnostic tests. Utilizing algorithms like decision trees, support vector machines, and neural networks, these models identify intricate patterns crucial for accurate classification of conditions such as coronary artery disease and arrhythmias. Trained on extensive labeled datasets, they continuously improve predictive accuracy and excel in handling high-dimensional data. For example, models analyzing ECG data can quickly detect abnormal rhythms, enabling timely interventions. By leveraging advanced algorithms and robust datasets, these models transform heart disease diagnosis and treatment planning, ultimately improving clinical outcomes and patient care.",
+    url: "https://github.com/devyanshbatra/Heart_Disease_Classification",
+  },
+  {
+    title: "Automatic Speed Reducer",
+    description: "Traffic condition in India is highly heterogeneous consisting of vehicles of different static and dynamic characteristics. The speeds of all vehicles are non-uniform. Further, it also leads to sudden slowing down of the whole traffic stream leading to traffic congestion. Speeding of vehicles increases the chances and seriousness of accident, so that the minimisation of speeding vehicles is significant as the streets/roads. Therefore, to regulate the speeds of different category of vehicles while travelling on a sharp turn or while approaching towards an intersection or buildings like schools and hospitals, traffic calming devices are provided on the roads. Speed breakers are one of the most commonly used traffic calming devices.",
+    url: "https://github.com/devyanshbatra/Autonomous_Speed_Reducer",
+  },
+  {
+    title: "Breast Cancer Type Classification", 
+    description: "Breast cancer is a widespread and serious health concern, and early detection is crucial for effective treatment. This project focuses on building a breast cancer classifier using TensorFlow without relying on Convolutional Neural Networks (CNNs). Whether you're a healthcare professional, data scientist, or advocate for early cancer detection, this project offers a unique approach to breast cancer classification using classical machine learning techniques.",
+    url: "https://github.com/devyanshbatra/Breast-Cancer-Type",
+  },
     
 ]
 

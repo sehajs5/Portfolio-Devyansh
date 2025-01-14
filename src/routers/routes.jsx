@@ -6,6 +6,7 @@ import Patents from "../pages/Patents";
 import Paper from "../pages/Paper";
 import PatentDesc from "../pages/PatentDesc";
 import Experience from "../pages/Experience";
+import Projects from "../pages/Project";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "/experience",
                 element: <Experience/>
+            },
+            {
+                path: "/projects",
+                element: <Projects/>
             }
         ]
     }
