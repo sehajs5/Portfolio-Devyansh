@@ -3,8 +3,8 @@ import coverPhoto from '../assets/coverPhoto.jpg'
 import {motion} from 'framer-motion'
 export default function Home() {
   return (
-    <div className='w-full  z-20 font-primary px-6 pt-10 md:px-20 lg:px-40 justify-between flex items-center'>
-      <div className='w-full lg:w-1/2 lg:p-8'>
+    <div className='w-full  z-20 font-primary px-6 pt-10 md:px-20 lg:px-40 justify-between flex flex-col lg:flex-row items-center'>
+      <div className='w-full lg:w-1/2 lg:p-8 order-2 lg:order-1'>
         <motion.p 
         whileInView={{opacity:1, x:0}}
         initial= {{x: -100, opacity:0}}
@@ -21,7 +21,7 @@ export default function Home() {
         </motion.h1>
       </div >
       
-      <div className='w-full lg:w-1/2 lg:p-8'>
+      <div className='w-full lg:w-1/2 lg:p-8 order-1 lg:order-2 mb-4'>
       <motion.img 
       whileInView={{opacity:1, x:0}}
       initial= {{x: 100, opacity:0}}

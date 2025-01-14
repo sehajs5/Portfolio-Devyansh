@@ -15,8 +15,8 @@ export default function PatentDesc() {
         transition={{duration:0.5}}
         onClick={()=> navigate('/patents')} className='mb-4'><IoMdArrowBack size={24}/></motion.button>
         {patent ? (
-            <div className='flex w-full justify-between items-start '>
-            <div className='w-1/2 mx-4'>
+            <div className='lg:flex-row flex flex-col w-full justify-between items-start '>
+            <div className='lg:w-1/2 mx-4'>
             <motion.h3 
             layoutId={`title-${id}`}
             className='text-3xl mb-4'>{patent.title}</motion.h3>
@@ -29,7 +29,7 @@ export default function PatentDesc() {
             transition={{duration:0.5}}
             className='text-lg text-justify mb-4'>{patent.description}</motion.p>
             </div>
-            <div className='w-1/2 mx-4 justify-end'>
+            <div className='lg:w-1/2 mx-4 justify-end'>
             <motion.img 
             whileInView={{opacity:1, x:0}}
             initial= {{x: 100, opacity:0}}

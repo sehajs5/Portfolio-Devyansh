@@ -224,21 +224,21 @@ export const EXPERIENCES = [
     id: 1,
     position: "Project Intern",
     company: "Feynn Lab Consultancy Services",
-    description: "Worked on ____ using _____",
+    description: "Worked on making a very interesting project using my background of machine learning and deep learning. Created documentations for company's projects and worked with tensorflow and CNN",
     period: "Feb 2024- Sep 2024",
   },
   {
     id: 2,
     positon: "Project Intern",
     company: "Devskillhub training and consultancy",
-    description: "",
+    description: "Worked briefly on making an exciting project which will be revealed in the future. I used Python, machine learning skills to acoomplish the daily tasks.",
     period: "June 2024- Nov 2024",
   },
   {
     id: 3,
     position: "Finance Intern", 
     company: "Awesome Advertising",
-    description: "",
+    description: "Used my machine learning capabilities to form logisitics of the financial conditions of the company.",
     period: "Nov 2024- Present", 
   }
 ]

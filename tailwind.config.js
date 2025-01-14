@@ -16,7 +16,7 @@ export default {
         'main': "#FFBD73",
         'content': "#000B58",
         'important': "#5C2FC2",
-        'oneMore': '#1F509A'
+        'oneMore': '#2F509E'
       }
     },
   },
